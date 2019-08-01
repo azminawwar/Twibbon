@@ -1,5 +1,5 @@
 <head>
-  <title>Twibbon CS UGM 2016</title>
+  <title>Twibbon UINJKT 2019</title>
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
@@ -18,9 +18,13 @@ echo $target_file;
  ?>" id="img1" width="600px" height="600px" hidden="true">
 <img src="images\twibbon.png" id="img2" width="600px" height="600px" hidden="true">
 
+<img src="images/uin.png" width="100px" height="100px">
+<img src="images/HIMSI.png" width="100px" height="100px">
+  <br>
+  <hr>
 <center>
 <h2><b>Twibbon Berhasil Dibuat</b><br><br><canvas id="canvas"></canvas></h2>
-<a id="download"><b><u>Simpan Gambar</b></u></a><br><br>
+<a id="download"><b><u>Klik untuk Simpan Gambar</b></u></a><br><br>
 <a href="index.html" ><< Kembali</a></center>
 <script>
 window.onload = function () {
@@ -53,6 +57,8 @@ document.getElementById('download').addEventListener('click', function() {
 
 </script>
 </body>
-<footer><br><hr><center>
-@cacadosman23</center>
+<footer>
+ <br>
+ <hr>
+  <center>Forked from <a href="https://github.com/cacadosman/Twibbon/">@cacadosman23</a> Designed by <a href="http://azmi.my.id">Azminawwar</a></center>
 </footer>
